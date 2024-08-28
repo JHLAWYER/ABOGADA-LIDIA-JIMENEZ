@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web profesional de [Tu Nombre], abogada especializada en [especialización]. Ofrezco asesoramiento y representación legal.">
+    <title>[Tu Nombre] - Abogada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>[Tu Nombre] - Abogada</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenida</h2>
+        <p>Soy [Tu Nombre], abogada con [X] años de experiencia en [áreas de especialización]. Mi compromiso es brindarte asesoramiento legal personalizado y eficaz.</p>
+        <a href="#contacto" class="cta-button">Agenda una consulta</a>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Me llamo [Tu Nombre], y soy licenciada en Derecho por [Universidad]. Con más de [X] años de experiencia en [especialización], he ayudado a numerosos clientes a resolver sus problemas legales de manera eficiente y ética.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Asesoramiento en derecho civil</li>
+            <li>Representación en litigios</li>
+            <li>Asesoramiento en derecho familiar</li>
+            <li>Contratos y negociación</li>
+        </ul>
+    </section>
+
+    <section id="testimonios">
+        <h2>Testimonios</h2>
+        <blockquote>"[Tu Nombre] me ayudó a ganar un caso difícil, siempre fue profesional y atenta." - Cliente A</blockquote>
+        <blockquote>"Excelente abogada, su asesoramiento fue clave para resolver mi situación legal." - Cliente B</blockquote>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Contáctame para una consulta personalizada.</p>
+        <p>Correo: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+        <p>Teléfono: [Tu número]</p>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
